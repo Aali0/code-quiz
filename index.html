@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+<body>
+    <h1>Code Quiz Challenge</h1>
+    <div>
+        Time: <span id="timer">0</span>
+    </div>
+    
+    <div id="quiz">
+    <p>
+        Try to answer the code-related questions within the time limit. When a question is answered correctly you will receive points. When a question is answered incorrectly your time will be deducted from the limit. Your score will be added to the time you have remaining and ranked amongst others.
+    </p>
+
+    <button id="button">
+        Start Quiz
+    </button>
+ 
+
+    </div>
+    <div id="questionsDiv">
+    <h2 id="question"></h2>
+    <ol>   
+    <li class="answer" id="a"></li>
+    <li class="answer" id="b"></li>
+    <li class="answer" id="c"></li>
+    <li class="answer" id="d"></li>
+    </ol> 
+
+    </div>
+    
+    <input id="userInput"></input><button id="submitButton">Submit</button>
+
+   <div id="results"></div>
+
+  
+    
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>
